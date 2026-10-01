@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ebanking_db
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: reddymallikarjunreddy87@gmail.com
+    password: nvye whxr smse vxdx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls: 
+            enable: true
+server:
+  port: 8080
+jwt:
+  secret: ZWJhbmtpbmdTZWNyZXRLZXkyMDI0SnduVG9rZW5TZWNyZXQ=
+razorpay:
+  key: rzp_test_Sg8Ro2D6asmMrG
+  secret: 8TqtF5poEQUqLlQnMbCY9iA5
